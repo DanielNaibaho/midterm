@@ -1,0 +1,26 @@
+API Minimum
+You require to create this API to fulfill our requirement, but you can add if needed
+
+
+1.Title : Video Thumbnail List
+Response : - VideoID, - Url Image Thumbnail
+Argument/Payload :
+Type: GET
+
+2.Title : Product List
+Response : - ProductID, - Link Product, - Title, - Price
+Argument/Payload : VideoID
+Type: GET
+
+3.Title : Comment List
+Response : - Username, - Comment, - timestamp
+Argument/Payload : VideoID
+Type: GET
+
+4.Title : Submit Comment
+Response : - Success, - Fail
+Argument/Payload : VideoID
+Type: POST
+
+
+
